@@ -1,0 +1,12 @@
+Êþº¾   4 G  lab5/BankStub  	lab5/Bank rates Ljava/util/Map; 	Signature 6Ljava/util/Map<Ljava/lang/String;Ljava/lang/Integer;>; <init> ()V Code
+   	 
+  java/util/HashMap
+  	      RUB
+    java/lang/Integer   valueOf (I)Ljava/lang/Integer;    java/util/Map    put 8(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; " USD $ EUR LineNumberTable LocalVariableTable this Llab5/BankStub; convert ((ILjava/lang/String;Ljava/lang/String;)D 
+Exceptions - java/lang/Exception  / 0 1 containsKey (Ljava/lang/Object;)Z  3 4 5 get &(Ljava/lang/Object;)Ljava/lang/Object;
+  7 8 9 intValue ()I
+ ,  amount I currIn Ljava/lang/String; currOut rateIn D rateOut 
+resultRate StackMapTable 
+SourceFile WalletTest.java                   	 
+     €     B*· *» Y· µ *´ ¸ ¹  W*´ !<¸ ¹  W*´ #F¸ ¹  W±    %              0  A  &       B ' (    ) *  +     ,    Ú  
+   U*´ ,¹ . ™ C*´ -¹ . ™ 6*´ ,¹ 2 À ¶ 6‡9*´ -¹ 2 À ¶ 6‡9o9‡k¯» ,Y· :¿    %          -  @   G " M $ &   H    U ' (     U ; <    U = >    U ? >  -   @ A  @  B A  G  C A  D    û M  E    F

@@ -1,0 +1,17 @@
+Êþº¾   4 d  lab5/WalletTest  java/lang/Object wallet Llab5/Wallet; <init> ()V Code
+     LineNumberTable LocalVariableTable this Llab5/WalletTest; setUpBeforeClass 
+Exceptions  java/lang/Exception RuntimeVisibleAnnotations Lorg/junit/BeforeClass; tearDownAfterClass Lorg/junit/AfterClass; setUp Lorg/junit/Before;  lab5/Wallet  lab5/BankStub
+  
+     ! (Llab5/Bank;)V	  #   tearDown Lorg/junit/After; testAddMoney Lorg/junit/Test; ) RUB
+  + , - addMoney (Ljava/lang/String;I)V
+  / 0 1 getMoney (Ljava/lang/String;)I      ,
+ 5 7 6 org/junit/Assert 8 9 assertEquals (JJ)V      X testRemoveMoney
+  > ? - removeMoney       P testRemoveMoneyException expected Ljava/lang/Exception; testSize
+  G H I size ()I testToString L {}
+  N O P toString ()Ljava/lang/String;
+ 5 R 8 S '(Ljava/lang/Object;Ljava/lang/Object;)V U GBP W USD Y { 500 GBP, 100 USD, 300 RUB } testGetTotalMoney      œ
+  ^ _ ` getTotalMoney (Ljava/lang/String;)D test 
+SourceFile WalletTest.java !                	   /     *· 
+±           )             	                  	   !       ±           /       	                  	   !       ±           3                         	   A     *» Y» Y· · µ "±       
+    7  8              $              %   	   +      ±           =              &        '   	   s     9*´ "(,¶ **´ "(¶ .… 2¸ 4*´ "(,¶ **´ "(¶ .… :¸ 4±           A  B  C ( D 8 E        9      <              '   	   ]     '*´ "(d¶ **´ "(¶ =*´ "(¶ .… @¸ 4±           I  J  K & L        '      B              '  Cc D 	   I     *´ "(¶ **´ "(d¶ =±           P  Q  R              E              '   	   y     ;	*´ "¶ F…¸ 4*´ "(d¶ *
+*´ "¶ F…¸ 4*´ "(d¶ =	*´ "¶ F…¸ 4±           V  W  X # Y . Z : [        ;      J        '   	   z     <K*´ "¶ M¸ Q*´ "Tô¶ **´ "(,¶ **´ "Vd¶ *X*´ "¶ M¸ Q±           _  a  b $ c / f ; g        <      Z              '   	   _     )*´ "(,¶ **´ "Vd¶ * [*´ "(¶ ]Ž…¸ 4±           l  m  o ( p        )      a        '   	   +      ±           w              b    c
